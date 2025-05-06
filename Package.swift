@@ -13,12 +13,13 @@ let package = Package(
         ),
     ],
     dependencies: [
-        // Add external dependencies here
+        .package(url: "https://github.com/Marxon13/M13Checkbox.git", from: "1.3.0")
     ],
     targets: [
         .target(
             name: "ZenColorPicker",
-            dependencies: []
+            dependencies: ["M13Checkbox"],
+            path: "Sources/ZenColorPicker"
         ),
         .testTarget(
             name: "ZenColorPickerTests",
