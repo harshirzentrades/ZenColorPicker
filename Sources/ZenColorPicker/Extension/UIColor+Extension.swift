@@ -9,7 +9,7 @@
 //
 
 import Foundation
-
+import UIKit
 
 /// https://gist.github.com/gotev/76df9006674762859626846cf171ff80
 extension UIColor {
