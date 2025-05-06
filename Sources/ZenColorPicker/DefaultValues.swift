@@ -11,6 +11,7 @@
 import Foundation
 import UIKit
 
+
 struct DefaultValues {
     
     static let cellSize: CGSize = CGSize(width: 48, height: 48)
