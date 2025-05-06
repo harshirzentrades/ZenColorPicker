@@ -13,7 +13,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/Marxon13/M13Checkbox.git", from: "1.3.0")
+        .package(url: "https://github.com/Marxon13/M13Checkbox.git", from: "3.4.1")
     ],
     targets: [
         .target(
