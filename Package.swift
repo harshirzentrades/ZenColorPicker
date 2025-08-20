@@ -20,7 +20,7 @@ let package = Package(
         .target(
             name: "ZenColorPicker",
             dependencies: ["M13Checkbox"],
-            path: "Sources/ZenColorPicker"
+            path: "Sources/ZenColorPicker",
             sources: [
                 "View",
                 "Protocol",
