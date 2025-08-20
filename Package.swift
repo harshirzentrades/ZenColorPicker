@@ -21,6 +21,9 @@ let package = Package(
             name: "ZenColorPicker",
             dependencies: ["M13Checkbox"],
             path: "Sources/ZenColorPicker"
+            resources: [
+                .process("View/ColorPickerView.swift")
+            ]
         ),
         .testTarget(
             name: "ZenColorPickerTests",
